@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <!-- navbar -->
+
+    <nav
+      class="fixed left-0 right-0 top-0 flex justify-between bg-white bg-opacity-75 p-3 shadow-xl"
+    >
+      <div class="flex">
+        <img
+          class="w-10 rounded-full shadow-lg"
+          src="https://avatars.githubusercontent.com/u/86972716?v=4"
+          alt="profile"
+        />
+        <h1 class="mx-3 text-2xl font-bold text-blue-800">Saif</h1>
+      </div>
+
+      <ul class="hidden cursor-pointer font-semibold md:flex">
+        <li class="px-4 hover:border-b-2 hover:text-blue-600">Home</li>
+        <li class="px-4 hover:border-b-2 hover:text-blue-600">Projects</li>
+        <li class="px-4 hover:border-b-2 hover:text-blue-600">Skills</li>
+        <li class="px-4 hover:border-b-2 hover:text-blue-600">Contact</li>
+      </ul>
+    </nav>
+
+    <!-- first page -->
+
+    <div class="flex min-h-screen flex-wrap items-center justify-center pt-16">
+      <div class="text-center">
+        <h1 class="p-4 text-4xl font-semibold md:text-6xl text-blue-800">
+          Hey, It's Saif
+        </h1>
+        <p class="p-4 text-lg">
+          A fullstack developer skilled in React, Tailwind, Next, express, Node,
+          Express and Tailwindcss
+        </p>
+        <button
+          class="m-2 rounded-xl bg-blue-500 px-9 py-3 text-2xl font-semibold text-white shadow-md hover:bg-blue-600 hover:shadow-xl"
+        >
+          Projects
+        </button>
+      </div>
+    </div>
+
+    <!-- about and skills page -->
+
+    <div class="flex min-h-screen flex-col items-center justify-center">
+      <h1 class="items-center py-4 text-4xl font-bold text-blue-800">
+        About Me
+      </h1>
+
+      <div class="mx-4 px-4 md:w-1/2">
+        <p>
+          I'm a Frontend Web Developer building the Front-end of Websites and
+          Web Applications that leads to the success of the overall product.
+          Check out some of my work in the Projects section. I also like sharing
+          content related to the stuff that I have learned over the years in Web
+          Development so it can help other people of the Dev Community. Feel
+          free to Connect or Follow me on my Linkedin where I post useful
+          content related to Web Development and Programming I'm open to Job
+          opportunities where I can contribute, learn and grow. If you have a
+          good opportunity that matches my skills and experience then don't
+          hesitate to contact me.
+        </p>
+      </div>
+      <h1 class="items-center py-6 text-4xl font-bold text-blue-800">Skills</h1>
+      <div class="mx-4 my-5 w-1/2 w-full md:w-1/2">
+        <ul class="flex flex-wrap text-lg">
+          <li class="m-4 rounded-2xl bg-gray-200 px-5 py-2">React</li>
+          <li class="m-4 rounded-2xl bg-gray-200 px-5 py-2">Tailwind</li>
+          <li class="m-4 rounded-2xl bg-gray-200 px-5 py-2">Redux</li>
+          <li class="m-4 rounded-2xl bg-gray-200 px-5 py-2">Node</li>
+          <li class="m-4 rounded-2xl bg-gray-200 px-5 py-2">Express</li>
+          <li class="m-4 rounded-2xl bg-gray-200 px-5 py-2">MongoDB</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- projects -->
+
+    <div class="flex flex-col px-10 pb-32 text-center">
+      <h1 class="m-2 p-4 text-2xl font-bold">Projects</h1>
+      <div class="grid grid-cols-1 gap-10 md:grid-cols-2">
+        <div
+          class="flex flex-col items-center justify-center rounded-3xl bg-gray-200 p-5 shadow-md"
+        >
+          <img
+            src="https://ik.imagekit.io/kirtanchandak/sharda-pohe.jpg?updatedAt=1706470422762"
+            class="rounded-2xl p-5 w-48"
+            alt="project"
+          />
+          <h1 class="font-serif text-[24px] font-bold">
+            Sharda Pohe and Misal
+          </h1>
+          <p>
+            Get a delicious serving of Misal for just 30rs! Spicy, flavorful,
+            and satisfying, our Misal is a taste of Maharashtra you won't want
+            to miss. Thank you for your support!
+          </p>
+          <button
+            class="m-4 rounded-xl bg-blue-600 px-3 py-2 font-semibold text-white"
+          >
+            Show More
+          </button>
+        </div>
+
+        <div
+          class="flex flex-col items-center justify-center rounded-3xl bg-gray-200 p-5 shadow-md"
+        >
+          <img
+            src="https://ik.imagekit.io/kirtanchandak/sharda-pohe.jpg?updatedAt=1706470422762"
+            class="rounded-2xl p-5 w-48"
+            alt="project"
+          />
+          <h1 class="font-serif text-[24px] font-bold">
+            Sharda Pohe and Misal
+          </h1>
+          <p>
+            Get a delicious serving of Misal for just 30rs! Spicy, flavorful,
+            and satisfying, our Misal is a taste of Maharashtra you won't want
+            to miss. Thank you for your support!
+          </p>
+          <button
+            class="m-4 rounded-xl bg-blue-600 px-3 py-2 font-semibold text-white"
+          >
+            Show More
+          </button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
